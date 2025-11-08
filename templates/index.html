@@ -4,7 +4,6 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Correct path: point to the bootstrap CSS inside the static folder -->
     <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-5.3.8-dist/css/bootstrap.min.css') }}">
     
     <title>Document</title>
@@ -12,9 +11,6 @@
 </head>
 <body>
     
-    <h1>Welcome Nahum To my Flask App!</h1>
-    <p>This page was loaded from an html template!</p>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">WANDR</a>
@@ -24,7 +20,7 @@
                         <a class="nav-link "href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link "href="#">Challenge us</a>
+                        <a class="nav-link "href="#">Scheduled Games</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link "href="#">Previous Games</a>
@@ -33,13 +29,25 @@
                         <a class="nav-link "href="#">Contact us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link "href="#">Scheduled Games</a>
+                        <a class="nav-link "href="#">Challenge us</a>
                     </li>
                 </ul>
 
             </div>
         </div>
     </nav>
-    
+    <div class="card" style="width: 18rem;">
+        <img src="{{url_for('static', filename='images/yes.jpg')}}" class="card-img-top" alt="Profile">
+        <div class="card-body">
+            <h5 class="card-title"> Nahum Michael</h5>
+            <p class="card-text">Aspiring Game Developer</p>
+            <a href="#" class="btn btn-primary">View Profile</a>
+        </div>
+    </div>
+
+    <h1>Welcome Nahum To my Flask App!</h1>
+    <p>This page was loaded from an html template!</p>
+
+    <script src="{{url_for('static', filename='bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js')}}"></script>
 </body>
 </html>
