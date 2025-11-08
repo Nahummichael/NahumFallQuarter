@@ -18,7 +18,7 @@ Through thorough online research, list the rough cost for each expense
 2. security: roughly $5,000
 3. utilities: $50
 4. an app: $30,000
-5. payroll: $58,000
+5. wages: $58,000
 
 Task 3 - Create a Financial Snapshot
 
@@ -35,7 +35,7 @@ Monthly Expenses
 
 
 Recurring But Not Monthly Expenses
-1. payroll
+1. salary
 
 
 Step 2: Add up the costs for your recurring & monthly expenses, & project the costs for 3 years of your business running
