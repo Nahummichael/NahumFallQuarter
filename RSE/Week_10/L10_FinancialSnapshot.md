@@ -7,7 +7,7 @@ Refer to the "Common Start-up Expenses" slide for help.
 2. security 
 3. utilities
 4. an app
-5. payroll
+5. salary
 
 
 Task 2 - Estimate The Costs
@@ -18,7 +18,7 @@ Through thorough online research, list the rough cost for each expense
 2. security: roughly $5,000
 3. utilities: $50
 4. an app: $30,000
-5. wages: $58,000
+5. salary: $58,000
 
 Task 3 - Create a Financial Snapshot
 
