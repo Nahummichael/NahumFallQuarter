@@ -6,7 +6,7 @@ Refer to the "Common Start-up Expenses" slide for help.
 1. insurance
 2. security 
 3. utilities
-4. an app
+4. the app
 5. salary
 
 
@@ -15,10 +15,10 @@ Copy and paste your list of expenses from Task 1 here.
 Through thorough online research, list the rough cost for each expense
 
 1. insurance: $810
-2. security: roughly $5,000
+2. security: roughly $6,300
 3. utilities: $50
-4. an app: $30,000
-5. salary: $58,000
+4. an app (rather cheap since I'll probably do most of it myself): $10,000
+5. salary: $3,983
 
 Task 3 - Create a Financial Snapshot
 
@@ -35,14 +35,14 @@ Monthly Expenses
 
 
 Recurring But Not Monthly Expenses
-1. salary
+1. salaries
 
 
 Step 2: Add up the costs for your recurring & monthly expenses, & project the costs for 3 years of your business running
 (Multiply your recurring monthly costs by 36 + recurring but not monthly costs by the number of times they occur in 3 years)
 
-1. Projected 3-Year Expenses: $69720
+1. Projected 3-Year Expenses: $542736
 
 Step 3: Add up all 3 categories to determine your total start up costs
 
-1. Total Business Start-up Cost: $93860
+1. Total Business Start-up Cost: $21143
