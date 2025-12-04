@@ -4,13 +4,18 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-5.3.8-dist/css/bootstrap.min.css') }}">
     
     <title>Document</title>
 
 </head>
 <body>
     
+    {% extends "base.html" %}
+
+    {%block title %}WANDR - Home{% endblock %}
+
+    {% block navbar %}
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">WANDR</a>
@@ -36,18 +41,30 @@
             </div>
         </div>
     </nav>
+    {%endblock %}
+
+
+
+    {%block content %}
+
+
+    <h1>Welcome Nahum To my Flask App!</h1>
+    <p>This page was loaded from an html template!</p>
+
+
+
     <div class="card" style="width: 18rem;">
-        <img src="{{url_for('static', filename='images/yes.jpg')}}" class="card-img-top" alt="Profile">
+        <img src="{{url_for('static', filename='images/yes.jpg')}}" 
+            class="card-img-top" alt="Profile">
         <div class="card-body">
             <h5 class="card-title"> Nahum Michael</h5>
             <p class="card-text">Aspiring Game Developer</p>
             <a href="#" class="btn btn-primary">View Profile</a>
         </div>
     </div>
+{% endblock %}
+    
 
-    <h1>Welcome Nahum To my Flask App!</h1>
-    <p>This page was loaded from an html template!</p>
-
-    <script src="{{url_for('static', filename='bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js')}}"></script>
+{%block footer %} {% endblock %}
 </body>
 </html>
