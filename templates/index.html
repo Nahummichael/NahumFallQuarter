@@ -5,31 +5,41 @@
 
     {% block navbar %}
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">WANDR</a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link "href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link "href="#">Scheduled Games</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link "href="#">Previous Games</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link "href="#">Contact us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link "href="#">Challenge us</a>
-                    </li>
-                </ul>
+    <div class="container">
+        <div class="row">
 
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="{{url_for('static', filename='images/logo.png')}}" class="img-thumbnail" alt="Profile" width="210" height="200">
+
+                        </a>
+                        <div class="collapse navbar-collapse">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link "href="/">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link "href="#">Scheduled Games</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link "href="#">Previous Games</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link "href="#">Contact us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link "href="#">Challenge us</a>
+                                </li>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
-    </nav>
+    </div>
+
+
     {%endblock %}
 
 
@@ -37,20 +47,29 @@
     {%block content %}
 
 
-    <h1>Welcome Wanders To my Flask App!</h1>
     <p>This page was loaded from an html template!</p>
 
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{url_for('static', filename='images/clean.jpg')}}" class="card-img-top" alt="Profile">
+                    <div class="card-body">
+                        <h5 class="card-title"> Nahum Michael</h5>
+                        <p class="card-text">Aspiring Game Developer</p>
+                        <a href="#" class="btn btn-primary">View Profile</a>
+                    </div>
+                </div>
+            </div>
 
-
-    <div class="card" style="width: 18rem;">
-        <img src="{{url_for('static', filename='images/yes.jpg')}}" 
-            class="card-img-top" alt="Profile">
-        <div class="card-body">
-            <h5 class="card-title"> Nahum Michael</h5>
-            <p class="card-text">Aspiring Game Developer</p>
-            <a href="#" class="btn btn-primary">View Profile</a>
+            <div class="col">
+                <style></style>
+                <h1 class = "Test">Test Your Skills</h1>
+            </div>
         </div>
     </div>
+
+    
 {% endblock %}
     
 
